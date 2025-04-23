@@ -1,0 +1,63 @@
+body {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5e7d6;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .dark-mode .card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  h1 {
+    color: #0d6efd;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: none;
+    background-color: #fff8f0;
+    transition: background-color 0.3s;
+  }
+  
+  .table {
+    margin-top: 10px;
+    background-color: #fff8f0;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  #mobileAddBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+  }
+  
+  /* Balance Card Colors */
+  .positive-balance {
+    background-color: #28a745 !important;
+    color: white !important;
+  }
+  
+  .negative-balance {
+    background-color: #dc3545 !important;
+    color: white !important;
+  }
+  
+  #balanceCard {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
